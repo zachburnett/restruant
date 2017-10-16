@@ -1,0 +1,8 @@
+/Users/slackburnout/Desktop/resturant/bin/Debug/netcoreapp1.1/resturant.deps.json
+/Users/slackburnout/Desktop/resturant/bin/Debug/netcoreapp1.1/resturant.runtimeconfig.json
+/Users/slackburnout/Desktop/resturant/bin/Debug/netcoreapp1.1/resturant.runtimeconfig.dev.json
+/Users/slackburnout/Desktop/resturant/bin/Debug/netcoreapp1.1/resturant.dll
+/Users/slackburnout/Desktop/resturant/bin/Debug/netcoreapp1.1/resturant.pdb
+/Users/slackburnout/Desktop/resturant/obj/Debug/netcoreapp1.1/resturant.AssemblyInfo.cs
+/Users/slackburnout/Desktop/resturant/obj/Debug/netcoreapp1.1/resturant.dll
+/Users/slackburnout/Desktop/resturant/obj/Debug/netcoreapp1.1/resturant.pdb

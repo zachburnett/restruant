@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/results.css" >
+</head>
+<body>
+    <table>
+        <tr>
+            <th>reviewer name</th>
+            <th>review</th>
+            <th>restruant</th>
+            <th>date visited</th>
+        </tr>
+    
+    @{
+        foreach(var x in ViewBag.alldem)
+        {
+           <tr>
+               <td>@x.username</td>
+               <td>@x.review</td>
+               <td>@x.restruant</td>
+               <td>@x.datevisited</td>
+           </tr>
+        }
+    }
+    </table>
+
+@{  
+     foreach(var x in ViewBag.alldem)
+     {
+         <p>review for:<strong>@x.restruant</strong></p><br>
+         <p>reviewer: <strong>@x.username</strong>,@x.datevisited</p><br>
+         <p>@x.review</p>
+         <hr>
+     }
+}
+</body>
+</html>
